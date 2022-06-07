@@ -1,0 +1,121 @@
+.created_at{
+    font-size: 12px;
+    color: grey;
+}
+
+.card{
+    margin-top: 10%;
+    float: left;
+    margin: 18px;
+    width: 17rem;
+    height: 365px;
+}
+
+.card-body{
+   height: 200px;
+   background-color: bisque;
+}
+
+.card-img-top{
+   height: 200px;
+}
+
+.description{
+    font-size: 14px;
+    font-weight: 600;
+    max-height: 50px;
+    overflow: hidden;
+}
+
+.pageChange{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn{
+    background: rgb(228, 228, 228); 
+    color: black;
+    border: none;
+}
+
+.btn:hover{
+    background-color: grey;
+    color: white;
+}
+
+.btn-outline-primary{
+    z-index: 0;
+}
+
+.btn-outline-primary:focus{
+    z-index: 0;
+}
+
+@media only screen and (max-width: 1400px) {
+    .card {
+        margin-top: 10%;
+        float: right;
+        margin: 18px;
+        width: 19rem;
+        height: 353px;
+    }
+}
+@media only screen and (max-width: 1201px) {
+    .card {
+        margin-top: 10%;
+        float: right;
+        margin: 18px;
+        width: 19rem;
+        height: 353px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .card {
+        margin-top: 10%;
+        float: right;
+        margin: 18px;
+        width: 17rem;
+        height: 353px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .card {
+        margin-top: 10%;
+        float: right;
+        margin: 18px;
+        width: 13.5rem;
+        height: 395px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .card {
+        margin-top: 10%;
+        float: right;
+        margin: 18px;
+        width: 17rem;
+        height: 395px;
+        margin-right: 90px;
+    }
+    .searchContainer {
+        width: 50%;
+        padding-bottom: 2%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .card {
+        margin-top: 10%;
+        float: right;
+        margin: 18px;
+        width: 17rem;
+        height: 395px;
+        margin-right: 40px;
+    }
+    .searchContainer {
+        width: 90%;
+        padding-bottom: 2%;
+        margin: auto;
+    }
+}
